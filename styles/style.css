@@ -22,8 +22,13 @@ full style of  top section
 .top-section-heading {
     font-family: 'Poppins', sans-serif;
     color: #fff;
-    font-size: 46px;
+    font-size: 45px;
     line-height: 80px;
+}
+
+.top-section-heading:hover {
+    color: #Efcd53;
+    transition: 1s ease;
 }
 
 .top-section-link {
@@ -35,6 +40,11 @@ full style of  top section
     color: #fff;
     font-family: 'Poppins', sans-serif;
     border-radius: 5px;
+}
+
+.top-section-link:hover {
+    transition: 1s ease;
+    background-color: #99e699;
 }
 
 .fa-arrow-right {
@@ -132,9 +142,18 @@ full style of  bottom section
     margin-left: 4px;
 }
 
+.bottom-section-link:hover {
+    background-color: #99e699;
+    transition: 1s ease;
+}
 .bottom-section-img {
     margin-left: 50px;
     margin-right: 140px;
+}
+
+.bottom-section-img:hover {
+    transform: rotate(360deg);
+    transition: 1.25s ease-in-out;
 }
 
 /* -----------------------
